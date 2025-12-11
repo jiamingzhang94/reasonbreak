@@ -89,7 +89,12 @@ if [[ "$STEP" == "eval" || "$STEP" == "all" ]]; then
 
     # --- Methods Config ---
     declare -a METHODS=(
-        "qvq-max_cot_on_top1|qvq-max|on|1|off|off|off|"
+   "gpt5_cot_off_top1|gpt5|off|1|off|off|off|"
+   "gemini_cot_off_top1|gemini|off|1|off|off|off|"
+   "o3_cot_off_top1|o3|off|1|off|off|off|"
+#    "qwvl-2.5_cot_on_top1|qwvl-2.5|on|1|off|off|off|"
+    # "qvq-max_cot_on_top1|qvq-max|on|1|off|off|off|"
+#    "qwvl-max_cot_on_top1|gpt4o|on|1|off|off|off|"
         # Add more methods here...
     )
 
